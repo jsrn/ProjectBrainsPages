@@ -12,6 +12,7 @@
 				<ul>
 					<li><a href="index.php">Home</a></li>
 					<li><a href="index.php?p=woundomatic">Wound-o-Matic</a></li>
+					<li><a href="index.php?p=buildcost">Building Costs</a></li>
 				</ul>
 			</nav>
 
