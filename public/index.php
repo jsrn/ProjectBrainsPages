@@ -7,16 +7,18 @@
 	</head>
 
 	<body>
-		<nav>
-			<ul>
-				<li><a href="index.php">Home</a></li>
-				<li><a href="index.php?p=woundomatic">Wound-o-Matic</a></li>
-			</ul>
-		</nav>
+		<div id="bodywrap">
+			<nav>
+				<ul>
+					<li><a href="index.php">Home</a></li>
+					<li><a href="index.php?p=woundomatic">Wound-o-Matic</a></li>
+				</ul>
+			</nav>
 
-		<section id="content">
-			<?php checkPageInclude(); ?>
-		</section>
+			<section id="content">
+				<?php checkPageInclude(); ?>
+			</section>
+		</div>
 	</body>
 </html>
 <?php

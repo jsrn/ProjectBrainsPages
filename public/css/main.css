@@ -1,16 +1,34 @@
+@import url(http://fonts.googleapis.com/css?family=Berkshire+Swash);
+
 body
 {
-	background-color: lightblue;
-	font-family: sans-serif;
+	background-color: #211f1c;
+	color: #ada18b;
+	font-family: 'Berkshire Swash', cursive;
 	width: 700px;
 	margin: 0 auto;
+	background-image: url('../img/bg-overlay.png');
+	min-height: 100%;
+	border: solid #26221C 2px;
+
 }
 
-#header
+div#bodywrap
 {
-	width: 100%;
+	padding: 5px;
+	width: 690px;
+	background-color: #3D372F;
+}
+
+blockquote
+{
+	width: 600px;
 	text-align: center;
-	margin: 5px 0;
+	margin: 5px auto 5px auto;
+	border-radius: 4px;
+	border: solid #26221C 2px;
+	font-size: 14px;
+	padding: 5px;
 }
 
 #submit-button
@@ -36,14 +54,28 @@ body
 	width: 50%;
 }
 
+nav
+{
+	overflow: hidden;
+}
+
 nav ul
 {
+	margin: 0;
 	list-style: none;
+	font-size: 18px;
+	color: #E8E6E7;
+	text-shadow: 1px 1px #222;
 }
 
 nav ul li
 {
 	float: left; padding: 0 5px;
+}
+
+nav ul li a:visited
+{
+	color: #E8E6E7;
 }
 
 section#content

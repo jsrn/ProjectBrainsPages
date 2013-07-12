@@ -1,6 +1,8 @@
-<div id="header">
-	Injury generator for Project Brains. Pick the settings, and roll!
-</div>
+<blockquote>
+	You can use this injury generator to randomise injuries recieved by your character.
+	<br>
+	Warning: It will not be kind to you!
+</blockquote>
 
 <div id="options">
 	<div class="options-col">
