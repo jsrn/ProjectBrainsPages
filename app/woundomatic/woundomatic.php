@@ -21,7 +21,7 @@
 	</div>
 </div>
 
-<input type="submit" id="roll-button" onclick="roll()">
+<input type="submit" id="roll-button" onclick="roll()" value="Roll">
 
 <div id="results"></div>
 
