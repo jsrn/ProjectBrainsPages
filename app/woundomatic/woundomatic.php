@@ -1,5 +1,5 @@
 <blockquote>
-	You can use this injury generator to randomise injuries recieved by your character.
+	You can use this to randomise injuries recieved by your character.
 	<br>
 	Warning: It will not be kind to you!
 </blockquote>

@@ -82,3 +82,10 @@ section#content
 {
 	clear: both;
 }
+
+input[type=submit]
+{
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 13px;
+	border: solid #26221C 1px;
+}
