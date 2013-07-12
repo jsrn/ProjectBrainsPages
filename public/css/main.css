@@ -95,3 +95,8 @@ input[type=submit]
 	font-size: 13px;
 	border: solid #26221C 1px;
 }
+
+ul.noliststyle
+{
+	list-style: none;
+}

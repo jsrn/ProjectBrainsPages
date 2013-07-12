@@ -4,6 +4,7 @@
 		<meta charset="UTF-8">
 		<title>The Midnight Watch</title>
 		<link rel="stylesheet" href="css/main.css">
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	</head>
 
 	<body>
@@ -43,8 +44,8 @@ function includePage( $page )
 			case 'woundomatic':
 				include "../app/woundomatic/woundomatic.php";
 				break;
-			default:
-				# code...
+			case 'buildcost':
+				include "../app/buildcost/buildcost.php";
 				break;
 		}
 	}
